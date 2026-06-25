@@ -1,22 +1,31 @@
-# Next.js template
+# Rustaceans.pl
 
-This is a Next.js template with shadcn/ui.
+Rustaceans.pl is a community platform dedicated to Rust developers in Poland.
 
-## Adding components
+Our mission is to build a place where developers can:
 
-To add components to your app, run the following command:
+* Ask questions and discuss Rust.
+* Learn through articles, guides, and educational resources.
+* Discover meetups, conferences, and community events.
+* Share open source projects and crates.
+* Connect with other Rust developers.
 
-```bash
-npx shadcn@latest add button
-```
+## Technology
 
-This will place the ui components in the `components` directory.
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
 
-## Using components
+## Contributing
 
-To use the components in your app, import them as follows:
+We welcome contributions from the community. If you have an idea, found a bug, or would like to improve the project, please open an issue or submit a pull request.
 
-```tsx
-import { Button } from "@/components/ui/button";
-```
-# rustaceans
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Rustaceans.pl is an independent community initiative and is **not affiliated with the Rust Foundation**.
