@@ -3,6 +3,13 @@ import { Geist, Geist_Mono, Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Rustaceans.pl — Polska społeczność Rust",
+  description:
+    "Społeczność programistów Rust. Forum, artykuły, wydarzenia i materiały do nauki.",
+};
 
 const inter = Inter({subsets:['latin'],variable:'--font-sans'})
 
