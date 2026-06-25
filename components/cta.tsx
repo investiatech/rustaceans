@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
 
 export function CTA() {
   return (
@@ -16,18 +17,23 @@ export function CTA() {
           Otrzymuj cotygodniowy newsletter z najciekawszymi dyskusjami, nowymi crate'ami
           i nadchodzącymi wydarzeniami. Bez spamu, możesz zrezygnować w każdej chwili.
         </p>
-        <form className="mx-auto mt-8 flex max-w-md flex-col gap-3 sm:flex-row">
+        <form className="mx-auto mt-8 flex w-full max-w-md flex-col gap-3 sm:flex-row sm:items-stretch">
           <label htmlFor="email" className="sr-only">
-            Email address
+            Adres e-mail
           </label>
-          <input
+
+          <Input
             id="email"
             type="email"
-            required
             placeholder="email@example.com"
-            className="h-11 flex-1 rounded-md border border-input bg-background px-4 text-sm text-foreground outline-none ring-ring placeholder:text-muted-foreground focus-visible:ring-2"
+            className="h-12 sm:flex-1"
           />
-          <Button type="submit" size="lg">
+
+          <Button
+            type="submit"
+            size="lg"
+            className="h-12 w-full px-6 shrink-0 sm:w-auto"
+          >
             Subskrybuj
           </Button>
         </form>
