@@ -1,4 +1,4 @@
-import { Check } from "lucide-react"
+import { ArrowRight, Check } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const points = [
@@ -33,8 +33,11 @@ export function Learn() {
               </li>
             ))}
           </ul>
-          <Button size="lg" className="mt-8">
-            Przejdź do materiałóws
+
+
+          <Button size="lg" className="gap-2 mt-8">
+            Przejdź do materiałów
+            <ArrowRight className="size-4" aria-hidden="true" />
           </Button>
         </div>
 

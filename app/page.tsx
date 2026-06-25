@@ -1,9 +1,9 @@
 import { CTA } from "@/components/cta";
-import { Discussions } from "@/components/discussions";
+import { Discussions } from "@/components/forum";
 import { Events } from "@/components/events";
-import { Features } from "@/components/features";
+import { Features } from "@/components/rustaceans";
 import { Hero } from "@/components/hero";
-import { Learn } from "@/components/learn";
+import { Learn } from "@/components/materials";
 import { Members } from "@/components/members";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
@@ -16,7 +16,7 @@ export default function Page() {
       <SiteHeader />
       <main>
         <Hero />
-        <Stats />
+        {/* <Stats /> */}
         <Features />
         <Discussions />
         <Events />

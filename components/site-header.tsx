@@ -1,15 +1,15 @@
 "use client"
 
 import { useState } from "react"
-import { Cog, Menu, X } from "lucide-react"
+import { ArrowRight, Cog, Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { label: "Dołącz", href: "#join" },
-  { label: "Forum", href: "#forums" },
-  { label: "Wydarzenia", href: "#events" },
-  { label: "Materiały", href: "#learn" },
-  { label: "Społeczność", href: "#members" },
+    { label: "Dołącz", href: "#join" },
+    { label: "Forum", href: "#forums" },
+    { label: "Wydarzenia", href: "#events" },
+    { label: "Materiały", href: "#learn" },
+    { label: "Społeczność", href: "#members" },
 ];
 
 export function SiteHeader() {
@@ -43,7 +43,10 @@ export function SiteHeader() {
                     <Button variant="ghost" size="sm">
                         Zaloguj sie
                     </Button>
-                    <Button size="sm">Dołącz do społeczności</Button>
+                    <Button size="lg" className="gap-2">
+                        Dołącz do społeczności
+                        <ArrowRight className="size-4" aria-hidden="true" />
+                    </Button>
                 </div>
 
                 <button

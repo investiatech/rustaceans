@@ -38,7 +38,7 @@ const threads = [
 
 export function Discussions() {
   return (
-    <section id="forums" className="border-y border-border bg-card/30">
+    <section id="forums" className="border-y border-border">
       <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 sm:py-28">
         <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
           <div className="max-w-2xl">
